@@ -28,47 +28,16 @@ body {
     color: white;
 }
 
-.gif-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    background-color: black;
-    color: yellowgreen;
 
-}
-.gif-container img
-{
-    border-radius: 12px;
-    margin: 5px;
-    width: 100px;
-    height: 100px;
-}
-.video-container
-{
+.video-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
 }
-.video-container video
-{
+
+.video-container iframe {
     margin-top: 5px;
     border: solid, 5px, rgb(132, 138, 121);
-    width: 100%;
+    width: 110%;
     height: 400px;
-}
-.play 
-{
-   background-color: blue;
-   color: rgb(2, 2, 2);
-   background-color: grey;
-   font-family: "Montserrat", sans-serif;
-   font-size: larger;
-   border-radius: 12px;
-   font-weight: bold;
-   margin:5px;
-}
-.play:hover {
-    background-color: #000;
-    color: white;
-    font-weight: bold;
 }
