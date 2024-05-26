@@ -23,14 +23,52 @@ body {
     width: 200px;
     height: 200px;
 }
-.container div
-{
+
+.container div {
     color: white;
+}
+
+.gif-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+    color: yellowgreen;
+
 }
 .gif-container img
 {
+    border-radius: 12px;
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+}
+.video-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.video-container video
+{
+    margin-top: 5px;
+    border: solid, 5px, rgb(132, 138, 121);
     width: 100%;
-    height: 25%;
-    background-color: black;
-    color: yellowgreen;
+    height: 400px;
+}
+.play 
+{
+   background-color: blue;
+   color: rgb(2, 2, 2);
+   background-color: grey;
+   font-family: "Montserrat", sans-serif;
+   font-size: larger;
+   border-radius: 12px;
+   font-weight: bold;
+   margin:5px;
+}
+.play:hover {
+    background-color: #000;
+    color: white;
+    font-weight: bold;
 }
