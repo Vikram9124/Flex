@@ -12,7 +12,7 @@
 
 <body>
 
-        <h1>IMAGE GALLERY</h1>
+        <h1>IMAGES</h1>
 
         <div class="container">
                 <div><img src="https://source.unsplash.com/random/1080x2000/?animal/1"
@@ -67,57 +67,28 @@
                 <div>
                         <img src="https://source.unsplash.com/random/1080x2000/?colour" alt="image">
                 </div>
-                <div>
-                        <img src="https://source.unsplash.com/random/1080x2000/?colour" alt="image">
-                </div>
-                <div>
-                        <img src="https://source.unsplash.com/random/1080x2000/?colour" alt="image">
-                </div>
+                <div><h1 style="color: black;">Yt-Videos</h1></div>
                 <div>
                         <img src="https://source.unsplash.com/random/1080x2000/?colour" alt="image">
                 </div>
         </div>
 
         <div class="video-container">
-                <div> <video id="video1" width="400" src="" alt="video">https://www.youtube.com/watch?v=p0bGHP-PXD4</video>
-                        <button class="play" data-video="video1" onclick="playVideo()">Play</button>
+                <div> <iframe width="853" height="480" src="https://www.youtube.com/embed/poo0BXryffI" title="JavaScript tutorial for Beginners in Tamil | DOM Explained | Mini Project in JavaScript" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                       
                 </div>
-                <div> <video id="video2" width="400" src="https://www.youtube.com/watch?v=PkZNo7MFNFg" alt="video"></video>
-                        <button class="play" data-video="video2" onclick="playVideo()">Play</button>
+                <div> 
+                        <iframe width="853" height="480" src="https://www.youtube.com/embed/WzO6VynQ7UM" title="Git &amp; GitHub Complete Tutorial for Beginners | Simplest GitHub Full Course | Tamil" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>   
                 </div>
-                <div> <video id="video3" width="400" src="https://www.youtube.com/watch?v=sBws8MSXN7A" alt="video"></video>
-                        <button class="play" data-video="video3">Play</button>
+                <div><iframe width="853" height="480" src="https://www.youtube.com/embed/hVWhsHOQbXM" title="Learn CSS Flexbox with Project | Flex Tutorial | Web Development Project | EMC | In Tamil" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                       
                 </div>
-                <div> <video id="video4" width="400" src="https://www.youtube.com/watch?v=SWYqp7iY_Tc" alt="video"></video>
-                        <button class="play" data-video="video4">Play</button>
+                <div> <iframe width="853" height="480" src="https://www.youtube.com/embed/6xqNk5Sf5jo" title="COOLIE - #Thalaivar171 Title Teaser | Superstar Rajinikanth| Sun Pictures| Lokesh Kanagaraj| Anirudh" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> alt="video"></video>
+                       
                 </div>
         </div>
 
-        <script>
-
-                document.addEventListener('DOMContentLoaded', function () {
-                        let buttons = document.querySelectorAll('.play');
-
-                        buttons.forEach(button => {
-                                button.addEventListener('click', function () {
-                                        let buttonId = this.getAttribute('data-video');
-                                        let video = document.getElementById(buttonId);
-
-                                        if (video.paused) {
-                                                video.play();
-                                                 buttonId =
-                                                 document.querySelector('button');
-                                                button.innerHTML = 'STOP';
-
-                                        } else {
-                                                video.pause();
-                                                buttonId=document.querySelector('button'); 
-                                                button.innerHTML="PLAY"; 
-                                        }
-                                });
-                        });
-                });
-        </script>
+       
 
 
 </body>
