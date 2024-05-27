@@ -12,9 +12,9 @@ body {
 }
 
 .container {
+    background-color: black;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 .container img {
@@ -26,6 +26,7 @@ body {
 
 .container div {
     color: white;
+    flex-basis: 25%;
 }
 
 
@@ -40,4 +41,22 @@ body {
     border: solid, 5px, rgb(132, 138, 121);
     width: 100%;
     height: 100%
+}
+
+.fruitbox {
+    background-color: chocolate;
+    display: flex;
+    flex-wrap:wrap;
+}
+
+
+.fruitbox div {
+    background-color: white;
+    flex-grow: 1;
+    flex-basis: 15%;
+    padding: 5px;
+    margin: 2px;
+
+   
+
 }
